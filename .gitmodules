@@ -1,9 +1,9 @@
 [submodule "readium-sdk"]
 	path = readium-sdk
-	url = https://github.com/fasooDev6/readium-sdk.git
+url=https://github.com/drminside/readium-sdk.git
 [submodule "readium-shared-js"]
 	path = readium-shared-js
 	url = https://github.com/readium/readium-shared-js.git
 [submodule "readium-drm"]
 	path = readium-drm
-	url = https://github.com/fasooDev6/readium-drm.git
+url=https://github.com/drminside/readium-drm.git
