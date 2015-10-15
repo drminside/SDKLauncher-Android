@@ -233,6 +233,11 @@ public class EpubServer implements HttpServerRequestCallback {
 
 		} else {
 			boolean isRange = request.getHeaders().get("range") != null;
+			
+			if(mime.contains("video") || 
+					mime.contains("audio")) {
+				isRange = true;
+			}
 
 			ResourceInputStream is;
 			synchronized (criticalSectionSynchronizedLock) {
